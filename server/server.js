@@ -21,7 +21,7 @@ const app = express()
 //const ORIGIN_CORS = 
 app.use(cors({
     credentials: true,
-    origin: "http://localhost:5173"
+    origin: "https://airbnb-mern.netlify.app"
     
 }));
 //console.log(__dirname + "hola")
