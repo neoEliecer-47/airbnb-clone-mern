@@ -1,0 +1,6 @@
+{
+    "reader-mode.auto.glob": [
+        "**/node_modules/**",
+        "C:\\c:\\Users\\Personal\\Desktop\\MERN\\airbnb-reserva-app\\**"
+    ]
+}
