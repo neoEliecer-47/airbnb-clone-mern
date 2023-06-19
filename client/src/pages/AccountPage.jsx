@@ -19,7 +19,7 @@ const AccountPage = () => {
   //if(!user && !autorization) return <Navigate to={'/login'} />
   
   const logout = async () => {
-    await axios.post("auth/logout")
+    await axios.post("/auth/logout")
     setUser(null)
     setReady(true)
     navigate("/")

@@ -98,7 +98,7 @@ const PlaceDetailsPage = () => {
               {place.photos?.[2] && (
                 <img
                   className="h-full object-cover relative rounded-br-2xl"
-                  src={path + place.photos?.[2]}
+                  src={place.photos?.[2]}
                   alt=""
                 />
               )}
@@ -120,9 +120,9 @@ const PlaceDetailsPage = () => {
             <h2 className="font-semibold text-2xl mb-2">Descripción</h2>
             {place.placeDescription}
           </div>
-          Llegada: {place.checkin} mes...
+          Llegada: {place.checkin} 
           <br />
-          Salida: {place.checkout} mes...
+          Salida: {place.checkout} 
           <br />
           Máximo de huespedes: {place.maxGuests}
           

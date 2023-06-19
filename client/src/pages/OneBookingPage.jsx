@@ -25,7 +25,7 @@ const OneBookingPage = ({ bookingid = null }) => {
 
   if (!booking) return "cargando..."; //cargando hasta que llegue la respesta y el estado cambie. simplemente sin complicarse
 
-  const path = "http://localhost:8000/uploads/";
+  //const path = "http://localhost:8000/uploads/";
 
   return (
     <div className="">

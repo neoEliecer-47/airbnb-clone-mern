@@ -12,7 +12,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import { useEffect } from "react";
 import PlaceDetailsPage from "./pages/PlaceDetailsPage";
 
-axios.defaults.baseURL = 'http://localhost:8000/api/v1' 
+axios.defaults.baseURL = 'https://api-airbnb-ocab.onrender.com/api/v1' 
 axios.defaults.withCredentials = true
 
 const App = () => {
